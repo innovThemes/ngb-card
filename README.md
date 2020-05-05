@@ -1,6 +1,11 @@
 # ngb-card
 ## Angular Card - Boostrap 4 Powered Angular Card with Advance features.
 
+## Note
+
+Please ndo not FORk AS <<< WORK IS IN PROGRESS >>> EXPECTED RELEASE ON : 12 May 2020
+Sorry FOR INCONVENIENCE ...
+
 Angular](https://angular.io/) card built from the ground up using only Bootstrap 4 CSS with APIs designed for the Angular ecosystem. No dependencies on 3rd party JavaScript.
 
 ## DEMO
