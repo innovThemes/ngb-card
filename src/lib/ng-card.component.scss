@@ -1,0 +1,56 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~highlight.js/scss/default.scss";
+
+// code icon
+.icon-code {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><path d='M8.293 6.293L2.586 12 8.293 17.707 9.707 16.293 5.414 12 9.707 7.707zM15.707 17.707L21.414 12 15.707 6.293 14.293 7.707 18.586 12 14.293 16.293z'/></svg>");
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  position: absolute;
+  top: 4px;
+  right: 6px;
+}
+
+// copy icon
+.icon-copy {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><path d='M20,2H10C8.897,2,8,2.897,8,4v4H4c-1.103,0-2,0.897-2,2v10c0,1.103,0.897,2,2,2h10c1.103,0,2-0.897,2-2v-4h4 c1.103,0,2-0.897,2-2V4C22,2.897,21.103,2,20,2z M4,20V10h10l0.002,10H4z M20,14h-4v-4c0-1.103-0.897-2-2-2h-4V4h10V14z'/><path d='M6 12H12V14H6zM6 16H12V18H6z'/></svg>");
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+}
+
+// collapse expand animation
+.collapse {
+  transition: max-height .55s, opacity .35s ease-in-out;
+  max-height: 0;
+  opacity: 0;
+  display: block !important;
+
+  &.show {
+    max-height: 100rem;
+    opacity: 1;
+  }
+}
+
+// copy icon & badge positioning
+.copy-wrapper {
+  top: 4px;
+  right: 4px;
+}
+
+// code toggle spacing
+.code-toggle {
+  pre {
+    max-height: 350px;
+    overflow: auto;
+    white-space: nowrap;
+    margin: 0;
+
+    code {
+      white-space: pre;
+    }
+  }
+}

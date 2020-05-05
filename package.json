@@ -1,0 +1,14 @@
+{
+  "name": "ngb-card",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^9.1.4",
+    "@angular/core": "^9.1.4",
+    "tslib": "^1.10.0"
+  },
+  "dependencies": {
+    "@ng-bootstrap/ng-bootstrap": "^6.1.0",
+    "bootstrap": "^4.4.1",
+    "ngx-highlightjs": "^4.1.0-beta"
+  }
+}
