@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { NgCardComponent } from './ng-card.component';
+import { NgbCardComponent } from './ngb-card.component';
 import { CommonModule } from '@angular/common';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -11,7 +11,7 @@ import {
 } from 'ngx-highlightjs';
 
 @NgModule({
-  declarations: [NgCardComponent],
+  declarations: [NgbCardComponent],
   imports: [CommonModule, NgbModule, HighlightModule],
   providers: [
     {
@@ -21,6 +21,6 @@ import {
       },
     },
   ],
-  exports: [NgCardComponent],
+  exports: [NgbCardComponent],
 })
-export class NgCardModule {}
+export class NgbCardModule {}

@@ -13,12 +13,12 @@ export interface CodeSnippet {
   module?: string;
 }
 @Component({
-  selector: 'ng-card',
-  templateUrl: './ng-card.component.html',
-  styleUrls: ['./ng-card.component.scss'],
+  selector: 'ngb-card',
+  templateUrl: './ngb-card.component.html',
+  styleUrls: ['./ngb-card.component.scss'],
   encapsulation: ViewEncapsulation.None,
 })
-export class NgCardComponent implements OnInit {
+export class NgbCardComponent implements OnInit {
   @Input('cardClass') cardClass: string;
   @Input('headerClass') headerClass: string;
   @Input('bodyClass') bodyClass: string;
@@ -26,13 +26,12 @@ export class NgCardComponent implements OnInit {
 
   @Input('codeSnippet') codeSnippet: CodeSnippet;
 
+  // public
+  public copyCodeStatus: boolean = false;
 
-    // public
-    public copyCodeStatus: boolean = false;
-
-      // private
+  // private
   private _defaultSnippetCode: CodeSnippet = {
-    isCollapsed: true // default collapsed is true
+    isCollapsed: true, // default collapsed is true
   };
 
   constructor() {}
