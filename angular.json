@@ -57,7 +57,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ngb-card-demo",
+            "outputPath": "demo/",
             "index": "projects/ngb-card-demo/src/index.html",
             "main": "projects/ngb-card-demo/src/main.ts",
             "polyfills": "projects/ngb-card-demo/src/polyfills.ts",
