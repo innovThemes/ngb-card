@@ -220,18 +220,19 @@ import '@angular/localize/init';
     ```
     
     2.3 **Output** : 
-        ![ng-card-advance-feature-demo](https://s6.gifyu.com/images/ng-card-advance-feature-demo.md.gif)
+    
+<img src="./assets/ng-card-advance-feature-demo.gif" width=400>
 
 ## API
 
-| Selector         | Type    |   property    | Discription   |
-| ------------ | ------- | ------------- | ------------- |
-| `ngb-card` | selector |   element |  ngb-card component |
-| `cardClass` | Input |  class  |   Use cardClass input property to add class to card.       |
-| `headerClass` | Input  | class | Use headerClass input property to add class to card header.              |
-| `bodyClass` | Input   |  class    | Use bodyClass input property to add class to card body.              |
-|  `footerClass`  |    Input     |         class      | Use footerClass input property to add class to card footer |
-| `codeSnippet` | `CodeSnippet` | object | Create HTML \| TS \| SCSS \| CSS \| JSON \| SERVICE \| MODULE  code snippets with tabs by passing html \| ts \| scss\| \| css \| json \| service \| module as key value pair to the `snippetCode` input Property.  |
+| Selector     | Type       |   property    | Discription   |
+| ------------ | ---------- | ------------- | ------------- |
+| `ngb-card`   | selector   | element       | ngb-card component |
+| `cardClass`  | Input      | class         | Use cardClass input property to add class to card.       |
+| `headerClass`| Input      | class         | Use headerClass input property to add class to card header.              |
+| `bodyClass`  | Input      | class         | Use bodyClass input property to add class to card body.              |
+| `footerClass`| Input      | class         | Use footerClass input property to add class to card footer |
+| `codeSnippet`| `CodeSnippet` | object     | Create HTML \| TS \| SCSS \| CSS \| JSON \| SERVICE \| MODULE  code snippets with tabs by passing html \| ts \| scss\| \| css \| json \| service \| module as key value pair to the `snippetCode` input Property.  |
 
     
 
