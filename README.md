@@ -106,7 +106,8 @@ import '@angular/localize/init';
     </ngb-card>    
     ```
     1.2 **Output**
-    <img src="./assets/basic-ng-card.jpg" width=400>
+
+<img src="./assets/basic-ng-card.jpg" width=400>
 
 2. Advance Card
 
