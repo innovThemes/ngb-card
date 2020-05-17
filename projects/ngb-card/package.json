@@ -1,11 +1,22 @@
 {
   "name": "ngb-card",
-  "version": "1.0.4",
+  "version": "1.1.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/innovThemes/ngb-card.git"
   },
   "license": "MIT",
+  "keywords": [
+    "angular",
+    "bootstrap",
+    "angular-card",
+    "snippet",
+    "angular-snippet",
+    "ng-card",
+    "ng2-card",
+    "snippet-card",
+    "snippet-code-angular"
+  ],
   "peerDependencies": {
     "@angular/common": "^9.1.4",
     "@angular/core": "^9.1.4",
