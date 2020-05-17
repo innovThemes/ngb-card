@@ -1,5 +1,9 @@
 # ng-card - Boostrap 4 Powered Angular Card with optional Snippet code feature.
 
+[![npm version](https://badge.fury.io/js/%40ng-bootstrap%2Fng-bootstrap.svg)](https://badge.fury.io/js/%40ng-bootstrap%2Fng-bootstrap)
+[![Build Status](https://travis-ci.org/ng-bootstrap/ng-bootstrap.svg?branch=master)](https://travis-ci.org/ng-bootstrap/ng-bootstrap)
+[![Sauce Test Status](https://saucelabs.com/browser-matrix/pkozlowski.svg)](https://saucelabs.com/u/pkozlowski)
+
 
 [Angular](https://angular.io/) widgets built from the ground up using only [Bootstrap 4](https://getbootstrap.com/) CSS with APIs designed for the Angular ecosystem.
 
