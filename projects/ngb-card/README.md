@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/%40ng-bootstrap%2Fng-bootstrap.svg)](https://badge.fury.io/js/%40ng-bootstrap%2Fng-bootstrap)
 [![Build Status](https://travis-ci.org/ng-bootstrap/ng-bootstrap.svg?branch=master)](https://travis-ci.org/ng-bootstrap/ng-bootstrap)
+<br />
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/pkozlowski.svg)](https://saucelabs.com/u/pkozlowski)
 
 
