@@ -74,10 +74,12 @@
           },
           "configurations": {
             "production": {
-              "fileReplacements": [{
-                "replace": "projects/ngb-card-demo/src/environments/environment.ts",
-                "with": "projects/ngb-card-demo/src/environments/environment.prod.ts"
-              }],
+              "fileReplacements": [
+                {
+                  "replace": "projects/ngb-card-demo/src/environments/environment.ts",
+                  "with": "projects/ngb-card-demo/src/environments/environment.prod.ts"
+                }
+              ],
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
@@ -86,15 +88,16 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
-              "budgets": [{
+              "budgets": [
+                {
                   "type": "initial",
-                  "maximumWarning": "4mb",
+                  "maximumWarning": "2mb",
                   "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
                   "maximumWarning": "6kb",
-                  "maximumError": "200kb"
+                  "maximumError": "700kb"
                 }
               ]
             }
@@ -160,7 +163,6 @@
           }
         }
       }
-    }
-  },
+    }},
   "defaultProject": "ngb-card"
 }
