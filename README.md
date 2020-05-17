@@ -1,4 +1,4 @@
-# ng-card - Boostrap 4 Powered Angular Card with Advance features.
+# ng-card - Boostrap 4 Powered Angular Card with optional Snippet code feature.
 
 
 [Angular](https://angular.io/) widgets built from the ground up using only [Bootstrap 4](https://getbootstrap.com/) CSS with APIs designed for the Angular ecosystem.
