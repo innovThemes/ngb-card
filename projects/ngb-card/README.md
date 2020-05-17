@@ -24,7 +24,7 @@
 
 ## Demo
 
-Please check all advance features we have in action at https://innovthemes.github.io/ngb-card/demo/
+Please check all advance features we have in action at [https://innovthemes.github.io/ngb-card](https://innovthemes.github.io/ngb-card)
 
 ## Dependencies
 
