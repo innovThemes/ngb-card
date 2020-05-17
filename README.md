@@ -75,7 +75,8 @@ import '@angular/localize/init';
    1.1 **component.html**
    `html <ngb-card [footerClass]="'text-danger'"> <div class="ng-card-header">Card Header</div> <div class="ng-card-body text-center"> <div class="mx-auto mt-2"> <img class="img-fluid" src="https://p.kindpng.com/picc/s/715-7155174_professional-headshots-men-asian-png-download-professional-profile.png" width="70" alt="img placeholder" /> </div> <h4>Gerry Dillon</h4> <p class="">Designer</p> <div class="d-flex justify-content-between"> <small class="float-left font-weight-bold" id="example-caption-3">720 Points</small> <small class="float-right font-weight-bold" id="example-caption-4">1000</small> </div> <div class="progress box-shadow my-3"> <div class="progress-bar bg-success" role="progressbar" aria-valuenow="45" aria-valuemin="45" aria-valuemax="100" style="width: 45%;" aria-describedby="example-caption-3"></div> </div> <div class="d-flex justify-content-between"> <button class="btn btn-primary"> Follow </button> <button class="btn btn-outline-primary"> Message </button> </div> </div> <div class="ng-card-footer">Card Footer</div> </ngb-card>`
    1.2 **Output**
-   ![Basic ng-card image ](https://s6.gifyu.com/images/basic-ng-card.png)
+
+   <img src="./assets/basic-ng-card.jpg" width=1000>
 
 2. Advance Card
 
