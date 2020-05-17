@@ -11,6 +11,7 @@
   position: absolute;
   top: 4px;
   right: 6px;
+  cursor: pointer;
 }
 
 // copy icon
@@ -20,6 +21,7 @@
   height: 24px;
   width: 24px;
   display: inline-block;
+  cursor: pointer;
 }
 
 // collapse expand animation
@@ -51,6 +53,11 @@
 
     code {
       white-space: pre;
+      font-size: 15px !important;
     }
   }
+}
+
+.hljs-ln-line.hljs-ln-numbers{
+  padding-right: 10px;
 }

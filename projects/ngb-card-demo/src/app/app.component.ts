@@ -4,55 +4,69 @@ import { CodeSnippet } from 'projects/ngb-card/src/public-api';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
+  public snippetCodeVariable: CodeSnippet = {
+    html: `// HTML snippet code
+<ngb-card [footerClass]="'text-danger'">
+  <div class="ng-card-header">Card Header</div>
+  <div class="ng-card-body">
+      ...
+  </div>
+  <div class="ng-card-footer">Card Footer</div>
+</ngb-card>`,
+    ts: `// typescript snippet code
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss'],
+})`,
+    css: `// CSS code
+#demo-code{
+  color: blue;
+}
+.demo-code{
+  background-color: white;
+}
+    `,
+    scss: `// SCSS code
+#demo-code, .demo-code{
+  color: blue;
+  background-color: white;
+}
+    `,
+    json: `// json snippet code
+{
+  "user_id": "234",
+  "name": “Mk Hollida
+  "email": “mock.holliday@example.com",
+  "birthdate": "1971-08-01T00:00:00+00:00”
+}`,
+    service: `// Angular service snippet code
+import { Injectable } from '@angular/core';
 
-  public snippetCodeAccordion: CodeSnippet = {
-    //     html: `<div class="accordion accordion-default collapse-bordered">
-    //     <ngb-accordion [destroyOnHide]='false' [closeOthers]="true" activeIds="panelBorderBottom1">
-    //     </ngb-accordion>
-    // </div>`,
-        ts: `import { Component } from '@angular/core';
-        import { codeSnippet } from 'projects/ng-card/src/public-api';
+@Injectable({
+  providedIn: 'root',
+})
+export class HeroService {
 
-        @Component({
-          selector: 'app-root',
-          templateUrl: './app.component.html',
-          styleUrls: ['./app.component.scss'],
-        })`,
-        css: `
-        .collapse {
-          transition: max-height .55s, opacity .35s ease-in-out;
-          max-height: 0;
-          opacity: 0;
-          display: block !important;
+  constructor() { }
 
-          &.show {
-            max-height: 100rem;
-            opacity: 1;
-          }
-        }
-        `,
-        json: `
-        name: "John", age: 31, city: "New York"
-        `,
-        service: `import { Component } from '@angular/core';
-        import { codeSnippet } from 'projects/ng-card/src/public-api';
-
-        @Component({
-          selector: 'app-root',
-          templateUrl: './app.component.html',
-          styleUrls: ['./app.component.scss'],
-        })`,
-        module: `import { Component } from '@angular/core';
-        import { codeSnippet } from 'projects/ng-card/src/public-api';
-
-        @Component({
-          selector: 'app-root',
-          templateUrl: './app.component.html',
-          styleUrls: ['./app.component.scss'],
-        })`,
-      };
-
+}`,
+    module: `// Angular module snippet code
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    NgbCardModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+    `,
+  };
 }
