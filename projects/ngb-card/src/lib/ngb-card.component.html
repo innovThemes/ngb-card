@@ -1,7 +1,7 @@
 <div class="card" [ngClass]="cardClass">
   <!-- card-header -->
   <div class="card-header position-relative" [ngClass]="headerClass">
-    <ng-content select=".ng-card-header"></ng-content>
+    <ng-content select=".ngb-card-header"></ng-content>
     <i
       *ngIf="
         codeSnippet.html ||
@@ -22,9 +22,9 @@
   <!-- card body -->
   <div class="card-body" [ngClass]="bodyClass">
     <h5 class="card-title">
-      <ng-content select=".ng-card-title"></ng-content>
+      <ng-content select=".ngb-card-title"></ng-content>
     </h5>
-    <ng-content select=".ng-card-body"></ng-content>
+    <ng-content select=".ngb-card-body"></ng-content>
   </div>
   <!--/ card body -->
 
@@ -206,7 +206,7 @@
 
   <!-- card footer -->
   <div class="card-footer" [ngClass]="footerClass">
-    <ng-content select=".ng-card-footer"></ng-content>
+    <ng-content select=".ngb-card-footer"></ng-content>
   </div>
   <!--/ card footer -->
 </div>
