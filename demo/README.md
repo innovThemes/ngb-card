@@ -41,7 +41,7 @@ The supported versions are:
 Just run the following:
 
 ```shell
-npm install --save ng-card
+npm install --save ngb-card
 ```
 ## Initial Configuration
 **app.module.ts**
@@ -81,8 +81,8 @@ import '@angular/localize/init';
     1.1 **component.html**
     ```html
     <ngb-card [footerClass]="'text-danger'">
-       <div class="ng-card-header">Card Header</div>
-       <div class="ng-card-body text-center">
+       <div class="ngb-card-header">Card Header</div>
+       <div class="ngb-card-body text-center">
           <div class="mx-auto mt-2">
              <img class="img-fluid"
                 src="https://p.kindpng.com/picc/s/715-7155174_professional-headshots-men-asian-png-download-professional-profile.png"
@@ -107,20 +107,20 @@ import '@angular/localize/init';
              </button>
           </div>
        </div>
-       <div class="ng-card-footer">Card Footer</div>
+       <div class="ngb-card-footer">Card Footer</div>
     </ngb-card>    
     ```
     1.2 **Output**
 
-<img src="./assets/basic-ng-card.jpg" width=400>
+<img src="./assets/basic-ngb-card.jpg" width=400>
 
 2. Advance Card
 
     2.1 **component.html**
     ```html
     <ngb-card [headerClass]="'h3 text-primary'" [footerClass]="'text-danger'" [codeSnippet]="snippetCodeVariable">
-       <div class="ng-card-header">Card Header</div>
-       <div class="ng-card-body text-center">
+       <div class="ngb-card-header">Card Header</div>
+       <div class="ngb-card-body text-center">
           <div class="mx-auto mt-2">
              <img class="img-fluid"
                 src="https://p.kindpng.com/picc/s/715-7155174_professional-headshots-men-asian-png-download-professional-profile.png"
@@ -129,12 +129,12 @@ import '@angular/localize/init';
           <h4>Gerry Dillon</h4>
           <p class="">Designer</p>
           <div class="d-flex justify-content-between">
-             <small class="float-left" id="ng-card-advance">720 Points</small>
-             <small class="float-right" id="ng-card-advance">1000</small>
+             <small class="float-left" id="ngb-card-advance">720 Points</small>
+             <small class="float-right" id="ngb-card-advance">1000</small>
           </div>
           <div class="progress shadow-sm my-3">
              <div class="progress-bar bg-success" role="progressbar" aria-valuenow="45" aria-valuemin="45"
-                aria-valuemax="100" style="width: 45%;" aria-describedby="ng-card-advance"></div>
+                aria-valuemax="100" style="width: 45%;" aria-describedby="ngb-card-advance"></div>
           </div>
           <div class="d-flex justify-content-between">
              <button class="btn btn-primary">
@@ -145,7 +145,7 @@ import '@angular/localize/init';
              </button>
           </div>
        </div>
-       <div class="ng-card-footer">Card Footer</div>
+       <div class="ngb-card-footer">Card Footer</div>
     </ngb-card>
     ```
     2.2 **component.ts**
@@ -162,11 +162,11 @@ import '@angular/localize/init';
       public snippetCodeVariable: CodeSnippet = {
         html: `// HTML snippet code
     <ngb-card [footerClass]="'text-danger'">
-      <div class="ng-card-header">Card Header</div>
-      <div class="ng-card-body">
+      <div class="ngb-card-header">Card Header</div>
+      <div class="ngb-card-body">
           ...
       </div>
-      <div class="ng-card-footer">Card Footer</div>
+      <div class="ngb-card-footer">Card Footer</div>
     </ngb-card>`,
         ts: `// typescript snippet code
     @Component({
@@ -226,7 +226,7 @@ import '@angular/localize/init';
     
     2.3 **Output** : 
     
-<img src="./assets/ng-card-advance-feature-demo.gif" width=400>
+<img src="./assets/ngb-card-advance-feature-demo.gif" width=400>
 
 ## API
 

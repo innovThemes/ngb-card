@@ -10,11 +10,11 @@ export class AppComponent {
   public snippetCodeVariable: CodeSnippet = {
     html: `// HTML snippet code
 <ngb-card [footerClass]="'text-danger'">
-  <div class="ng-card-header">Card Header</div>
-  <div class="ng-card-body">
+  <div class="ngb-card-header">Card Header</div>
+  <div class="ngb-card-body">
       ...
   </div>
-  <div class="ng-card-footer">Card Footer</div>
+  <div class="ngb-card-footer">Card Footer</div>
 </ngb-card>`,
     ts: `// typescript snippet code
 @Component({
