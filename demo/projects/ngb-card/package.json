@@ -1,0 +1,32 @@
+{
+  "name": "ngb-card",
+  "version": "1.2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innovThemes/ngb-card.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "bootstrap",
+    "angular-card",
+    "snippet",
+    "angular-snippet",
+    "ng-card",
+    "ng2-card",
+    "snippet-card",
+    "snippet-code-angular"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^9.1.4",
+    "@angular/core": "^9.1.4",
+    "tslib": "^1.10.0"
+  },
+  "homepage": "https://github.com/innovThemes/ngb-card",
+  "dependencies": {
+    "@angular/localize": "^9.1.7",
+    "@ng-bootstrap/ng-bootstrap": "^6.1.0",
+    "bootstrap": "^4.4.1",
+    "ngx-highlightjs": "^4.1.0-beta"
+  }
+}
